@@ -1,0 +1,40 @@
+
+<div class="card">
+    <div class="card-header">
+       
+        <a class="btn btn-success" routerLink="/agregar-empleado/">Agregar nuevo empleado</a>    
+    </div>
+    <div class="card-body">
+       <h1>Lista Empleados</h1>
+        <div class="table-responsive">
+
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Armo el ciblo for con ngFor y luego con {{ llamamos tabla con . dato(id, nombre, etc)}} -->
+                    <tr *ngFor="let empleado of Empleados; let iControl=index">
+
+                        <td>{{ empleado.id }}</td>
+                        <td>{{ empleado.nombre }}</td>
+                        <td>{{ empleado.correo }}</td>
+                        <td>
+                            <a class="btn btn-info" routerLink="/editar-empleado/{{ empleado.id }}">Editar</a> | 
+                           <!--  En borrar el iControl borra la fila de interfaz por eso esta despues de empleado.id que tambien se borra -->
+                            <a class="btn btn-danger" (click)="borrarRegistro(empleado.id, iControl)" role="button">Borrar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+</div>
+
