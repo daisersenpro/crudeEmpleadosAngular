@@ -1,7 +1,10 @@
-Imagenes:
+-Imagenes:
 [![CRUD-ANGULAR-AGREGAR.png](https://i.postimg.cc/jdXxxGdz/CRUD-ANGULAR-AGREGAR.png)](https://postimg.cc/JGsVKYXn)
+
 [![CRUD-ANGULAR-BORRAR.png](https://i.postimg.cc/zXXmj38g/CRUD-ANGULAR-BORRAR.png)](https://postimg.cc/5jGk94H4)
+
 [![CRUD-ANGULAR-EDITAR.png](https://i.postimg.cc/prs67YRn/CRUD-ANGULAR-EDITAR.png)](https://postimg.cc/WqJ8qZD2)
+
 [![CRUD-ANGULAR-LISTAR.png](https://i.postimg.cc/fLZqRgb9/CRUD-ANGULAR-LISTAR.png)](https://postimg.cc/QB4J6m18)
 
 # Crudeangular
